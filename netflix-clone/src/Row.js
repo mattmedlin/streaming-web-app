@@ -28,7 +28,7 @@ function Row({ title, fetchUrl, isLargeRow }) {
       autoplay: 1,
     },
   };
-  //
+
   const handleClick = (movie) => {
     if (trailerUrl) {
       setTrailerUrl("");
